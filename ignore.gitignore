@@ -1,0 +1,12 @@
+# Ignore all text and test files
+*.txt
+*.log
+*.pyc
+__pycache__/
+venv/
+*.pdf
+
+# Keep only main code and docs
+!*.py
+!README.md
+!*.md
