@@ -1,12 +1,13 @@
-# Ignore all text and test files
-*.txt
-*.log
-*.pyc
+# Ignore cache, env, logs
 __pycache__/
 venv/
+*.log
 *.pdf
 
-# Keep only main code and docs
+# Ignore text or temp files
+*.txt
+
+# Keep code and documentation
 !*.py
-!README.md
 !*.md
+!README.md
